@@ -1,0 +1,25 @@
+.gray-box{
+  border: 1px dashed black;
+  float: left;
+  width: 200px;
+  background: #F3F3F3;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+p {
+  clear: left;
+}
+
+.gray-box img{
+  display: block;
+  margin: 0px auto;
+}
+
+.gray-box h3, h6{
+  text-align: center;
+}
+
+.gray-box p{
+  text-align: center;
+}

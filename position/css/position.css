@@ -1,0 +1,35 @@
+.red, .blue, .green{
+  position: static;
+  width: 200px;
+  height: 200px;
+}
+
+.red, .redb, .redc{
+  background: red;
+}
+
+.blue, .blueb, .bluec{
+  background: blue;
+}
+
+.green, .greenb, .greenc{
+  background: green;
+}
+
+
+.redb, .blueb, .greenb{
+  position:relative;
+  width: 200px;
+  height: 200px;
+}
+
+
+.redc, .bluec, .greenc{
+  position:relative;
+  width: 200px;
+  height: 200px;
+}
+
+.bluec{
+  left: 200px;
+}
